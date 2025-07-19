@@ -31,22 +31,22 @@ A full-stack **MERN** (MongoDB, Express, React, Node.js) web application with **
 
 ## 🗂️ Project Structure
 
-note-organizer/
-├── note-organizer-backend/       # Backend server
-│   ├── src/
-│   │   ├── config/               # Database configuration
-│   │   ├── controllers/          # Route controllers
-│   │   ├── middleware/           # Authentication middleware
-│   │   ├── models/               # MongoDB models
-│   │   ├── routes/               # API routes
-│   │   ├── types/                # Type definitions
-│   │   ├── utils/                # Utility functions
-│   │   └── server.ts             # Express server
-│   ├── .env                      # Environment variables
-│   ├── package.json
-│   └── tsconfig.json
-│
-└── note-organizer-frontend/      # Frontend application
+ note-organizer-backend/       # Backend server
+    ├── src/
+    │   ├── config/               # Database configuration
+    │   ├── controllers/          # Route controllers
+    │   ├── middleware/           # Authentication middleware
+    │   ├── models/               # MongoDB models
+    │   ├── routes/               # API routes
+    │   ├── types/                # Type definitions
+    │   ├── utils/                # Utility functions
+    │   └── server.ts             # Express server
+    ├── .env                      # Environment variables
+    ├── package.json
+    └── tsconfig.json
+
+
+ note-organizer-frontend/      # Frontend application
     ├── src/
     │   ├── components/           # React components
     │   ├── constants/            # Application constants
@@ -61,9 +61,11 @@ note-organizer/
     ├── tsconfig.json
     └── vite.config.ts
 
-
 ## 🛠️ Installation
 1. Clone the repository
+
+git clone https://github.com/your-username/note-organizer-app.git
+cd note-organizer-app
 
 git clone https://github.com/Zeshan793z/Note_Organizer.git
 cd note-organizer
