@@ -56,19 +56,17 @@ note-organizer-app/
 │ ├── tailwind.config.ts
 │ └── package.json
 │ └── vite.config.ts
+
 ## 🛠️ Installation
 1. Clone the repository
 
-git clone https://github.com/your-username/note-organizer-app.git
-cd note-organizer-app
-
-git clone https://github.com/Zeshan793z/Note_Organizer.git
-cd note-organizer
+$ git clone https://github.com/Zeshan793z/Note_Organizer.git
+$ cd note-organizer
 
 2. Set up the backend
 
-cd note-organizer-backend
-npm install
+$ cd note-organizer-backend
+$ npm install
 
 3. Configure environment variables
 Create a .env file in the backend directory:
@@ -79,20 +77,20 @@ PORT=5000
 
 4. Set up the frontend
 
-cd ../note-organizer-frontend
-npm install
+$ cd ../note-organizer-frontend
+$ npm install
 
 5. Run the application
 
 In one terminal (backend):
 
-cd ../note-organizer-backend
-npm run dev
+$ cd ../note-organizer-backend
+$ npm run dev
 
 In another terminal (frontend):
 
-cd ../note-organizer-frontend
-npm run dev
+$ cd ../note-organizer-frontend
+$ npm run dev
 
 6. Access the application
 Open your browser and navigate to http://localhost:5173
