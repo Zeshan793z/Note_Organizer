@@ -26,7 +26,7 @@ export default function NoteForm() {
     }
   };
 
-  // 🔄 Auto-save on input change
+  //  Auto-save on input change
   useEffect(() => {
     if (!title && !content && !category) return;
 

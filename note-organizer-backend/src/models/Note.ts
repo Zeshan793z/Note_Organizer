@@ -4,7 +4,7 @@ export interface INote extends Document {
   user: mongoose.Types.ObjectId;
   title: string;
   content: string;
-  category: 'Work' | 'Personal' | 'Random'; // ✅ now enum string
+  category: 'Work' | 'Personal' | 'Random'; 
   image?: string;
   pin?: boolean;
 }
@@ -16,7 +16,7 @@ const NoteSchema: Schema = new Schema(
     content: { type: String, required: true },
     category: {
       type: String,
-      enum: ['Work', 'Personal', 'Random'], // ✅ only allow these 3
+      enum: ['Work', 'Personal', 'Random'],
       required: true,
     },
     image: { type: String },

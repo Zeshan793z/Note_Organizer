@@ -62,7 +62,7 @@ export const getNotes = asyncHandler(async (req: AuthRequest, res: Response) => 
   const total = await Note.countDocuments(query);
 
   const notes = await Note.find(query)
-    .sort({ pin: -1, updatedAt: -1 }) // Pinned notes first, then by updatedAt
+    .sort({ pin: -1, updatedAt: -1 }) 
     .skip(skip)
     .limit(limit);
 

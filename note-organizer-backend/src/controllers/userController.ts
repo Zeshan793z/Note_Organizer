@@ -51,7 +51,7 @@ const typedUser = user as IUser;
 res.status(200).json({
   token: generateToken(typedUser._id.toString()),
   user: {
-    _id: typedUser._id,       // ✅ Now this will not be `unknown`
+    _id: typedUser._id,     
     name: typedUser.username,
     email: typedUser.email,
   },
