@@ -31,28 +31,31 @@ A full-stack **MERN** (MongoDB, Express, React, Node.js) web application with **
 
 ## 🗂️ Project Structure
 
-note-organizer-frontend/ # Frontend (React + Vite)
-├── src/
-│ ├── components/ # React components
-│ ├── pages/ # Application pages
-│ ├── context/ # Auth context
-│ ├── utils/ # Utility functions
-│ ├── App.tsx # Root component
-│ └── main.tsx # Entry point
-├── package.json
-├── tailwind.config.js # Tailwind CSS config
-└── vite.config.ts # Vite config
-
-note-organizer-backend/ # Backend (Express + MongoDB)
-├── src/
-│ ├── config/ # DB config
-│ ├── controllers/ # API controllers
-│ ├── models/ # Mongoose models
-│ ├── routes/ # API routes
-│ └── server.ts # Express server
-├── package.json
-└── .env # Environment variables
-
+note-organizer-app/
+├── note-organizer-backend/
+│ ├── src/
+│ │ ├── controllers/
+│ │ ├── models/
+│ │ ├── routes/
+│ │ ├── middleware/
+│ │ ├── utils/
+│ │ └── server.ts
+│ ├── uploads/
+│ ├── .env
+│ └── package.json
+├── note-organizer-frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── context/
+│ │ ├── pages/
+│ │ ├── constants/
+│ │ ├── types/
+│ │ ├── App.tsx
+│ │ └── main.tsx
+│ ├── index.html
+│ ├── tailwind.config.ts
+│ └── package.json
+│ └── vite.config.ts
 ## 🛠️ Installation
 1. Clone the repository
 
